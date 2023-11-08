@@ -551,28 +551,18 @@ Lineage-21.0-Projects:
   - LineageOS/android_hardware_ril
   - LineageOS/android_kernel_configs
   - LineageOS/android_lineage-sdk
-  - LineageOS/android_packages_apps_Aperture
   - LineageOS/android_packages_apps_AudioFX
   - LineageOS/android_packages_apps_Backgrounds
   - LineageOS/android_packages_apps_Camera2
   - LineageOS/android_packages_apps_Car_Settings
   - LineageOS/android_packages_apps_CellBroadcastReceiver
-  - LineageOS/android_packages_apps_Contacts
-  - LineageOS/android_packages_apps_DeskClock
-  - LineageOS/android_packages_apps_Dialer
   - LineageOS/android_packages_apps_DocumentsUI
-  - LineageOS/android_packages_apps_Eleven
   - LineageOS/android_packages_apps_EmergencyInfo
-  - LineageOS/android_packages_apps_Etar
-  - LineageOS/android_packages_apps_ExactCalculator
   - LineageOS/android_packages_apps_FMRadio
   - LineageOS/android_packages_apps_Gallery2
-  - LineageOS/android_packages_apps_Jelly
   - LineageOS/android_packages_apps_LineageParts
-  - LineageOS/android_packages_apps_Messaging
   - LineageOS/android_packages_apps_Nfc
   - LineageOS/android_packages_apps_Profiles
-  - LineageOS/android_packages_apps_Recorder
   - LineageOS/android_packages_apps_Seedvault
   - LineageOS/android_packages_apps_Settings
   - LineageOS/android_packages_apps_SettingsIntelligence
@@ -582,7 +572,6 @@ Lineage-21.0-Projects:
   - LineageOS/android_packages_apps_Tag
   - LineageOS/android_packages_apps_ThemePicker
   - LineageOS/android_packages_apps_Trebuchet
-  - LineageOS/android_packages_apps_Updater
   - LineageOS/android_packages_apps_WallpaperPicker2
   - LineageOS/android_packages_inputmethods_LatinIME
   - LineageOS/android_packages_inputmethods_LeanbackIME
@@ -629,6 +618,7 @@ Lineage-21.0-Projects:
   - LineageOS/android_vendor_crowdin
   - LineageOS/android_vendor_lineage
   - PROJECT-Lineage-recovery
+  - PROJECT-Lineage-apps
 Lineage-Device-Projects:
   - OEM-10or
   - OEM-Acer
@@ -2092,6 +2082,18 @@ PROJECT-Lineage-recovery:
   - LineageOS/android_external_gptfdisk
 PROJECT-Lineage-telephony:
   - LineageOS/android_hardware_lineage_telephony
+PROJECT-Lineage-apps:
+  - LineageOS/android_packages_apps_Aperture
+  - LineageOS/android_packages_apps_Contacts
+  - LineageOS/android_packages_apps_DeskClock
+  - LineageOS/android_packages_apps_Dialer
+  - LineageOS/android_packages_apps_Eleven
+  - LineageOS/android_packages_apps_Etar
+  - LineageOS/android_packages_apps_ExactCalculator
+  - LineageOS/android_packages_apps_Jelly
+  - LineageOS/android_packages_apps_Messaging
+  - LineageOS/android_packages_apps_Recorder
+  - LineageOS/android_packages_apps_Updater
 PROJECT-MediaTek-hardware:
   - LineageOS/android_device_mediatek_sepolicy
   - LineageOS/android_device_mediatek_sepolicy_vndr
